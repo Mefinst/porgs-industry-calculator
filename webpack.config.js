@@ -1,0 +1,1 @@
+const clientConfig = (module.exports = [])

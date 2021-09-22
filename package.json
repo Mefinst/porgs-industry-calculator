@@ -1,0 +1,29 @@
+{
+  "name": "porgs-industry-calculator",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "ts-node src/server/industry/industry.main.ts",
+    "test": "jest",
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "@types/assert": "^1.5.5",
+    "@types/jest": "^26.0.24",
+    "assert": "^2.0.0",
+    "esm": "^3.2.25",
+    "prettier": "^2.3.2",
+    "ts-jest": "^27.0.4",
+    "ts-node": "^10.2.0",
+    "webpack": "^5.45.1",
+    "webpack-cli": "^4.7.2"
+  },
+  "dependencies": {
+    "@nestjs/common": "^8.0.4",
+    "@nestjs/core": "^8.0.4",
+    "@nestjs/platform-express": "^8.0.6",
+    "js-yaml": "^4.1.0",
+    "nestjs": "^0.0.1",
+    "vue": "^2.6.14",
+    "vuex": "^3.6.2"
+  }
+}
